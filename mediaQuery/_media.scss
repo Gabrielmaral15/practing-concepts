@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+  ul {
+    display: none;
+  }
+
+  #menu {
+    opacity: 1;
+
+    pointer-events: visible;
+    position: relative;
+  }
+}

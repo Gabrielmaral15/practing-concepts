@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto NavBar - Menu</title>
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <nav id="nav">
+    <a href="#"><h1>LOGO</h1></a>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contate-nos</a></li>
+      <li><a href="#">Suporte</a></li>
+    </ul>
+    <button type="button" id="menu" onclick="changeMenu(1)">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div id="containerBtn">
+      <div>
+        <a href="#"><h1>LOGO</h1></a>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contate-nos</a></li>
+          <li><a href="#">Suporte</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+  </nav>
+
+  <main id="main1">
+    <a id="btnAgents" href="#main2">
+    <span></span>
+      Ver todos os agentes
+    <span></span>
+    </a>
+  </main>
+  
+  <main id="main2">
+    <h1></h1>
+  </main>
+  <!-- <main id="main2">
+    <h1></h1>
+  </main> -->
+
+  <script src="./script/scrollNavBar.js"></script>
+  <script src="./script/menu.js"></script>
+  <script src="./script/fillBar.js"></script>
+</body>
+</html>
